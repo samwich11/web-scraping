@@ -24,7 +24,7 @@ if respuesta.status_code == 200:
         nombre_maquina = onclick_text.split("'")[1]
         conteo_maquinas += 1
         
-    print(f"Autors encontrados: ")
+    print(f"Autores encontrados: ")
     for autor in autores:
         print(autor)
     
